@@ -30,8 +30,34 @@ filetool/
 ├── RenameOption.java    // File renaming
 └── README.md            // Documentation
 
+## Help Command
+Description: Display all available commands and their usage.
+Examples :
 
 
+
+## List Files Command
+Description: Display all files and subdirectories in a specified directory.
+Examples :
+
+
+
+## Copy File Command
+Description: Copy a file from source to destination.
+Examples :
+
+
+## Move File Command
+Description: Move a file from one location to another.
+Examples :
+
+## Delete File/Directory Command
+Description: Permanently delete a file or empty directory.
+Examples :
+
+## Rename File Command
+Description: Change the name of a file or directory.
+Examples :
 
 
 
