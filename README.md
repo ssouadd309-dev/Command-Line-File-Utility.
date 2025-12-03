@@ -33,7 +33,7 @@ filetool/
 ## Help Command
 Description: Display all available commands and their usage.
 Examples :
-
+![Flowchart](diagram.png)
 
 
 ## List Files Command
