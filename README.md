@@ -33,31 +33,49 @@ filetool/
 ## Help Command
 Description: Display all available commands and their usage.
 Examples :
-![Flowchart](diagram.png)
+
+
+
+![Flowchart](images/screenshot1.jpg)
 
 
 ## List Files Command
 Description: Display all files and subdirectories in a specified directory.
 Examples :
 
-
+![Flowchart](images/screenshot2.jpg)
 
 ## Copy File Command
 Description: Copy a file from source to destination.
 Examples :
+
+![Flowchart](images/copy.jpg)
+
+![Flowchart](images/copy2.jpg)
 
 
 ## Move File Command
 Description: Move a file from one location to another.
 Examples :
 
+![Flowchart](images/move.jpg)
+
+
 ## Delete File/Directory Command
 Description: Permanently delete a file or empty directory.
 Examples :
 
+![Flowchart](images/del.jpg)
+
+
 ## Rename File Command
 Description: Change the name of a file or directory.
 Examples :
+
+![Flowchart](images/screenshot6.jpg)
+
+
+![Flowchart](images/screenshot62.jpg)
 
 
 
