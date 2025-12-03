@@ -34,10 +34,7 @@ filetool/
 Description: Display all available commands and their usage.
 Examples :
 
-
-
 ![Flowchart](images/screenshot1.jpg)
-
 
 ## List Files Command
 Description: Display all files and subdirectories in a specified directory.
@@ -50,9 +47,6 @@ Description: Copy a file from source to destination.
 Examples :
 
 ![Flowchart](images/copy.jpg)
-
-![Flowchart](images/copy2.jpg)
-
 
 ## Move File Command
 Description: Move a file from one location to another.
@@ -71,9 +65,6 @@ Examples :
 ## Rename File Command
 Description: Change the name of a file or directory.
 Examples :
-
-![Flowchart](images/screenshot6.jpg)
-
 
 ![Flowchart](images/screenshot62.jpg)
 
