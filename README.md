@@ -72,11 +72,11 @@ Examples :
 ![Flowchart](images/del.jpg)
 
 Error Handling :
-1.	The delete command checks if a valid <path> is provided.
-	2.	It verifies that the file or directory exists and that permission is granted.
-	3.	If the target is a directory, it ensures the directory is empty before deleting.
-	4.	It attempts the deletion and displays success or error messages depending on the result.
-	5.	Any exceptions are handled and displayed to the user.
+- The delete command checks if a valid <path> is provided.
+- It verifies that the file or directory exists and that permission is granted.
+- If the target is a directory, it ensures the directory is empty before deleting.
+- It attempts the deletion and displays success or error messages depending on the result.
+- Any exceptions are handled and displayed to the user.
 
 ## Rename File Command
 Description: Change the name of a file or directory.
@@ -85,9 +85,9 @@ Examples :
 ![Flowchart](images/screenshot62.jpg)
 
 Error Handling :
-1.	The rename command checks if both <path> and <newname> are provided.
-	2.	If the inputs are valid, it calls the renameFile() method.
-	3.	If any argument is missing or an unknown command is entered, it shows an error message with usage instructions.
+- The rename command checks if both <path> and <newname> are provided.
+- If the inputs are valid, it calls the renameFile() method.
+- If any argument is missing or an unknown command is entered, it shows an error message with usage instructions.
 
 
 ## How to run :
