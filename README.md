@@ -37,11 +37,17 @@ Examples :
 
 ![Flowchart](images/screenshot1.jpg)
 
+Error Handling :
+
+
 ## List Files Command
 Description: Display all files and subdirectories in a specified directory.
 Examples :
 
 ![Flowchart](images/screenshot2.jpg)
+
+Error Handling:
+
 
 ## Copy File Command
 Description: Copy a file from source to destination.
@@ -49,12 +55,15 @@ Examples :
 
 ![Flowchart](images/copy.jpg)
 
+Error Handling :
+
 ## Move File Command
 Description: Move a file from one location to another.
 Examples :
 
 ![Flowchart](images/move.jpg)
 
+Error Handling
 
 ## Delete File/Directory Command
 Description: Permanently delete a file or empty directory.
@@ -62,6 +71,12 @@ Examples :
 
 ![Flowchart](images/del.jpg)
 
+Error Handling :
+1.	The delete command checks if a valid <path> is provided.
+	2.	It verifies that the file or directory exists and that permission is granted.
+	3.	If the target is a directory, it ensures the directory is empty before deleting.
+	4.	It attempts the deletion and displays success or error messages depending on the result.
+	5.	Any exceptions are handled and displayed to the user.
 
 ## Rename File Command
 Description: Change the name of a file or directory.
@@ -69,6 +84,10 @@ Examples :
 
 ![Flowchart](images/screenshot62.jpg)
 
+Error Handling :
+1.	The rename command checks if both <path> and <newname> are provided.
+	2.	If the inputs are valid, it calls the renameFile() method.
+	3.	If any argument is missing or an unknown command is entered, it shows an error message with usage instructions.
 
 
 ## How to run :
@@ -79,7 +98,7 @@ Examples :
 
 - To run the tool, type:
 
-*java FileTool <command> <arguments>*
+*java FileTool [command][arguments]*
 
 
 
