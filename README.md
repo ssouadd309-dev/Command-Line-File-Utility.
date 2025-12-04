@@ -38,7 +38,10 @@ Examples :
 ![Flowchart](images/screenshot1.jpg)
 
 Error Handling :
-
+- The help command does not require any arguments.
+- If extra or unknown arguments are provided, it can display a message indicating the command usage is incorrect.
+- When executed correctly, it calls the Help() method to display the full help menu with all available commands.
+- Any unexpected errors during the execution are caught and an appropriate error message is displayed (if implemented).
 
 ## List Files Command
 Description: Display all files and subdirectories in a specified directory.
@@ -47,6 +50,9 @@ Examples :
 ![Flowchart](images/screenshot2.jpg)
 
 Error Handling:
+- The list command checks if the directory path argument is provided.
+- If the path is missing, it displays an error message with the correct usage.
+- If the argument is valid, it calls listFiles() to execute the listing operation.
 
 
 ## Copy File Command
@@ -56,14 +62,23 @@ Examples :
 ![Flowchart](images/copy.jpg)
 
 Error Handling :
+- The copy command checks if both <source> and <destination> arguments are provided.
+- If any argument is missing, it displays an error message with the correct usage.
+- If the inputs are valid, it calls the copyFile() method to perform the copy operation.
 
+  
 ## Move File Command
 Description: Move a file from one location to another.
 Examples :
 
 ![Flowchart](images/move.jpg)
 
-Error Handling
+Error Handling :
+- The move command checks if both <source> and <destination> arguments are provided.
+- If any argument is missing, it displays an error message with the correct usage.
+- If the source file does not exist, it shows an error message indicating the file cannot be found.
+- If all inputs are valid, it calls moveFile() to perform the operation.
+- Any unexpected errors during the operation are caught and an error message is displayed explaining the issue.
 
 ## Delete File/Directory Command
 Description: Permanently delete a file or empty directory.
