@@ -18,6 +18,7 @@ Language: Java .
 - *Java Development Kit (JDK):* Version 8
 - *Operating System:* Windows, or Linux
 - *Command Line Interface:* Terminal, CMD
+- *Uses java.nio.file for efficient file handling*
 
 ## Project Structure
 filetool/
@@ -67,6 +68,18 @@ Description: Change the name of a file or directory.
 Examples :
 
 ![Flowchart](images/screenshot62.jpg)
+
+
+
+## How to run :
+- Download the project file and save it into a folder on your computer.
+- Open Command Line (CMD) and navigate to the folder where the file is located using the command:
+
+*cd <folder_path>*
+
+- To run the tool, type:
+
+*java FileTool <command> <arguments>*
 
 
 
